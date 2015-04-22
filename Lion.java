@@ -1,8 +1,8 @@
 import java.awt.*;
 
-public class Eeshan extends Critter {
+public class Lion extends Critter {
     public String toString() {
-        return "E";
+        return "L";
     }
 
     public Action getMove(CritterInfo info) {
@@ -16,6 +16,6 @@ public class Eeshan extends Critter {
     }
 
     public Color getColor() {
-        return Color.BLUE;
+        return Color.RED;
     }
 }
